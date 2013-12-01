@@ -1,0 +1,14 @@
+<li id="<%= meta.id %>" class="item <%= meta.type %>">
+
+    <% if (meta.link) {  %>
+        <a href="<%= meta.link %>">
+    <% }  %>
+
+        <%= content %>
+
+    <% if (meta.link) {  %>
+        </a>
+    <% }  %>
+
+
+</li>

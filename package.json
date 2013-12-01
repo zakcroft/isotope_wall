@@ -1,0 +1,15 @@
+{
+  "author": "zak croft",
+  "name": "wall-widget",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {
+    "engine": "node > 0.4.1",
+    "socket.io": "~0.9.16",
+    "grunt": "~0.4.1",
+    "mocha": "~1.11.0",
+    "should": "~1.2.2",
+    "chai": "*"
+  }
+}

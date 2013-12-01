@@ -1,0 +1,327 @@
+/* web fonts here */
+@font-face {
+    font-family: 'You';
+    src: url('../fonts/you-webfont.eot');
+    src: url('../fonts/you-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/you-webfont.woff') format('woff'),
+         url('../fonts/you-webfont.ttf') format('truetype'),
+         url('../fonts/you-webfont.svg#You') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;border:0;}
+article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block;}
+html, body { overflow: hidden; width: 100%; height: 100%; }
+html { -webkit-text-size-adjust: none; }
+body { font: 12px/1.3 'Gotham Book', Arial, sans-serif; color: #000000; background: #e6e6e7 url(../images/bg/bg-1.jpg) 50% 0 no-repeat; }
+ul { list-style: none; }
+ol { padding: 0 0 0 20px; list-style: decimal; }
+table { border-collapse: collapse; border-spacing: 0; border: 0; }
+a { color: #da0022; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.left { float: left; }
+.right { float: right; }
+.hidden { display: none; }
+* { outline: none; }
+.clear:after { content: "."; display: block; height: 0; font-size: 0; clear: both; visibility: hidden; * display: inline-block; }
+strong { font-family: 'Gotham Bold', Arial, sans-serif; font-weight: normal; }
+.red { color: #da0022; }
+
+
+h1 { font-size: 36px; font-family: 'Gotham Book', Arial, sans-serif; font-weight: normal; }
+h1 span { color: #da0022; }
+h2 {  }
+h3 {  }
+p { padding: 10px 0 0 0; }
+
+
+input, select, button, img { margin: 0; vertical-align: middle; }
+input, select, button { font-size: 12px; font-family: Arial, Tahoma, sans-serif; color: #666666; }
+input[type='text'], input[type='password'] {
+    padding: 5px 6px;
+    background-color: #f3f3f3;
+	background-image: -moz-linear-gradient(top, #ffffff, #f3f3f3);
+	background-image: -ms-linear-gradient(top, #ffffff, #f3f3f3);
+	background-image: -o-linear-gradient(top, #ffffff, #f3f3f3);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f3f3f3));
+	background-image: -webkit-linear-gradient(top, #ffffff, #f3f3f3);
+	background-image: linear-gradient(top, #ffffff, #f3f3f3);
+    border: #dcddde solid 1px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+}
+a.button, input.button, button {
+    display: inline-block; overflow: visible;
+    height: 18px;
+    padding: 0 6px;
+    color: #ffffff; font-size: 11px; line-height: 18px;
+    text-align: center; font-family: 'Gotham Bold', Arial, sans-serif; text-decoration: none; text-transform: uppercase;
+    cursor: pointer;
+    background: #da0022;
+    border: 0; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;
+    -webkit-appearance: none;
+}
+input.button::-moz-focus-inner, button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+a.big, button.big, input.big {
+	height: 40px;
+    padding: 0 16px;
+    font-size: 14px; line-size: 40px;
+}
+a.blue, button.blue, input.blue {
+	background: #395799;
+}
+
+
+div.page { width: 100%; min-width: 320px; }
+
+
+header {
+    position: fixed;
+    width: 100%; min-width: 320px; min-height: 60px;
+    padding: 0 0 32px 0;
+    top: 0; left: 0;
+    background: url(../images/header/shadow.png) 0 100% repeat-x;
+}
+header a.logo {
+    display: block; position: absolute; z-index: 1;
+    width: 144px; height: 103px;
+    top: 0; left: 16px;
+    text-indent: -5000px;
+    background: url(../images/header/coca-cola.png) 0 0 no-repeat;
+}
+
+nav { width: 100%; }
+nav:after { content: "."; display: block; height: 0; font-size: 0; clear: both; visibility: hidden; * display: inline-block; }
+nav a.open { display: none; }
+nav ul {
+    z-index: 2;
+    width: 100%;
+    font-family: 'Gotham Bold', Arial, sans-serif; font-size: 11px; text-transform: uppercase;
+}
+nav ul:after { content: "."; display: block; height: 0; font-size: 0; clear: both; visibility: hidden; * display: inline-block; }
+nav ul li {
+    float: left;
+    margin: 0 0 0 20px;
+}
+nav ul li:first-child { margin-left: 180px; }
+nav ul li a {
+    display: block;
+    height: 60px;
+    color: #ffffff; line-height: 60px;
+}
+nav ul li.active {
+    position: relative;
+    margin-bottom: -12px; padding-bottom: 12px;
+    background: url(../images/header/active.png) 50% 100% no-repeat;
+}
+nav ul li.active a, nav ul li a:hover { color: #000000; text-decoration: none; }
+
+div.connect { position: absolute; top: 0; right: 0; }
+div.connect ul {
+	width: 100%;
+    font-family: 'Gotham Bold', Arial, sans-serif; font-size: 11px; text-transform: uppercase;
+}
+div.connect ul:after { content: "."; display: block; height: 0; font-size: 0; clear: both; visibility: hidden; * display: inline-block; }
+div.connect > ul > li {
+    float: left; position: relative;
+}
+div.connect > ul > li > a {
+    display: block;
+    height: 60px;
+    padding: 0 20px 0 40px;
+    color: #ffffff; line-height: 60px;
+    background-position: 16px 50%; background-repeat: no-repeat;
+}
+div.connect > ul > li > a:hover {
+    text-decoration: none;
+    background-color: #000000;
+}
+div.connect ul li.connect > a { background-image: url(../images/header/connect.png); }
+div.connect ul li.share > a { background-image: url(../images/header/share.png); }
+div.connect ul li.connect.connected > a {
+    width: 60px;
+    padding: 0;
+    text-indent: -5000px;
+    background-position: 0 0;
+}
+div.connect ul li.share.active > a {
+    background-color: #000000;
+}
+
+div.connect div.box {
+    position: absolute; z-index: 2;
+    top: 60px; right: 0;
+    color: #ffffff;
+    background: #000000;
+}
+div.connect div.box div.content {
+    overflow: hidden;
+    width: 100%;
+    padding: 32px 0;
+}
+div.connect div.box a.close {
+    position: absolute;
+    width: 100px;
+    bottom: -12px; right: 0;
+    padding: 0 0 12px 0;
+    background: url(../images/header/active.png) 50% 100% no-repeat;
+    -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+}
+div.connect div.box a.close span {
+    display: block;
+    height: 18px;
+    background: #e31d2e;
+}
+div.connect div.box p {
+    float: left;
+    width: 130px;
+    padding: 0 0 0 20px;
+    font-size: 11px;
+}
+div.connect div.box ul {
+    float: right;
+    width: auto;
+    padding: 0 20px 0 0;
+    font-family: 'Gotham Bold', Arial, sans-serif; font-size: 11px; text-transform: uppercase;
+}
+
+div.connect #connect { width: 400px; }
+div.connect #connect ul li {
+    width: 100%;
+    padding: 8px 0;
+}
+div.connect #connect ul li:first-child { padding-top: 0; }
+div.connect #connect label {
+    display: inline-block;
+    padding: 0 14px 0 0;
+}
+div.connect #connect input {
+    width: 106px;
+    margin: 0 5px 0 0;
+}
+div.connect #connect input.connected {
+    width: auto;
+    margin: 0; padding-left: 0;
+    color: #ffffff; font-size: 12px; text-transform: none;
+    background: none !important; filter: none;
+    border: 0;
+    -webkit-touch-callout: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;
+}
+div.connect #connect button {
+    width: 28px; height: 25px;
+    font-size: 18px; line-height: 25px;
+}
+
+div.connect #share { width: 340px; }
+div.connect #share ul li {
+    float: left;
+    padding: 8px 0 8px 14px;
+}
+div.connect #share ul li:first-child { padding-left: 0; }
+
+
+#content { overflow: hidden; width: 100%; min-width: 320px; padding: 100px 0; }
+
+
+footer {
+    position: fixed;
+    min-width: 280px;
+    bottom: 0; left: 0;
+    padding: 0 20px 20px 20px;
+    font-family: 'Gotham Book', Arial, sans-serif; font-size: 11px; color: #666666;
+}
+footer span { display: inline-block; padding: 0 4px; }
+footer a { color: #666666; }
+footer a.lang { display: inline-block; padding: 0 12px 0 0; color: #e31d2e; background: url(../images/header/lang.png) 100% 50% no-repeat; }
+
+
+#steps {
+    overflow: hidden;
+    width: 100%;
+}
+#steps .step {
+    float: left;
+    width: 100%;
+}
+
+
+div.coke-can {
+    overflow: hidden;
+	width: 494px; height: 278px;
+    margin: 0 auto;
+    color: #ffffff; font-family: 'You', Arial, sans-serif; font-size: 60px; line-height: 270px; text-align: center;
+    background: url(../images/content/can.png) 0 0 no-repeat;
+}
+
+
+ul.friend-list {
+    overflow: hidden;
+    width: 100%;
+    font-family: Arial, Tahoma, sans-serif; font-size: 10px; line-height: 12px;
+}
+ul.friend-list li {
+    float: left;
+    width: 79px;
+    margin: 5px;
+}
+ul.friend-list li a {
+    display: block;
+    color: #000000;
+    background: #ffffff;
+}
+ul.friend-list li.active a,ul.friend-list li a:hover {
+    color: #ffffff; text-decoration: none;
+    background: #e31d2e;
+}
+ul.friend-list li a span {
+    display: block;
+    padding: 5px;
+}
+
+
+
+
+
+
+/* IE */
+.ie9 input[type='text'], .ie9 input[type='password'] {
+    padding-top: 6px;
+}
+
+
+@media all and (max-width:1000px) {
+    nav { float: right; width: auto; }
+    
+    nav a.open { display: block; float: left; height: 60px; margin: 0 0 0 170px; padding: 0 20px 0 40px; color: #ffffff; line-height: 60px; 
+    font-family: 'Gotham Bold', Arial, sans-serif; font-size: 11px; text-transform: uppercase;
+    background: url(../images/header/menu.png) 16px 50% no-repeat; }
+    nav a.open.active, nav a.open:hover { text-decoration: none; background-color: #000000; }
+    
+    nav ul { display: none; position: absolute; top: 60px; left: 0; clear: both; background: #000000; }
+    nav ul li { float: none; margin: 0; }
+    nav ul li:first-child { margin-left: 0; }
+    nav ul li.active { margin-bottom: 0; padding-bottom: 0; background: none; }
+    nav ul li a { height: 32px; padding: 0 10px; line-height: 32px; }
+    nav ul li.active a, nav ul li a:hover { color: #e31d2e; }
+    
+    div.connect { float: right; position: static; }
+}
+
+@media all and (max-width:800px) {
+    
+}
+
+@media all and (max-width:640px) {
+    div.connect > ul > li { position: static; }
+    div.connect #connect { left: auto; width: 100%; }
+    div.connect #share { left: auto; width: 100%; }
+    
+    div.coke-can {
+        width: 300px; height: 169px;
+        font-size: 32px; line-height: 169px;
+        background: url(../images/content/can-mobile.png) 0 0 no-repeat;
+    }
+}

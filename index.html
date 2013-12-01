@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <link href="../css/global.css" rel="stylesheet" type="text/css">
+    <link href="css/override.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+<ul id="filter" class="option-set clearfix" data-option-key="filter">
+    <li><a href="#show-all" data-option-value="*" class="selected">show all</a></li>
+    <li><a href="#news" data-option-value=".news:not(.old)">Latest News</a></li>
+    <li><a href="#features" data-option-value=".office">Offices</a></li>
+    <li><a href="#commets" data-option-value=".comment">Comments</a></li>
+    <li><a href="#tweets" data-option-value=".tweet">Tweets</a></li>
+</ul>
+<header>
+    <a href="#" class="logo" title="Coca-Cola">Coca-Cola</a>
+
+    <div id="logInPanel" class="connect">
+
+    </div>
+
+</header>
+
+<div id="stepOne" class="step">
+    <ul id="items" class="clearfix"></ul>
+</div>
+
+<nav id="page_nav" style="display: none;">
+    <a href="data/items2.json"></a>
+</nav>
+
+
+</body>
+
+
+<script src="jam/jquery/dist/jquery.js"></script>
+<script src="jam/isotope/jquery.isotope.js"></script>
+<script src="jam/underscore/underscore.js"></script>
+<script src="js/lib/infinite-scroll.js"></script>
+<script src="js/lib/masonry.js"></script>
+
+
+<script src="js/app.js"></script>
+<script src="js/utils/utils.js"></script>
+<script src="node_modules/socket.io/node_modules/socket.io-client/dist/socket.io.js"></script>
+<script src="js/client.js"></script>
+<!--script src="js/rt-update.js"></script-->
+
+<script src="init.js"></script>
+
+</html>
